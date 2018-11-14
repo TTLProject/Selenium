@@ -1,0 +1,5 @@
+email_id=identifierId
+next=//*[@id="identifierNext"]/content/span
+pwd_name=password
+next1_xpath=//*[@id="passwordNext"]/content/span
+url=https://accounts.google.com
