@@ -22,7 +22,7 @@ File f=new File("G:\\cnu\\gmail.xlsx");
 	@SuppressWarnings("resource")
 	XSSFWorkbook wb=new XSSFWorkbook(fi1);
 	XSSFSheet sh=wb.getSheet("Sheet1");
-	System.out.println(sh.getLastRowNum());
+	System.out.println("sh.getLastRowNum()==="+sh.getLastRowNum());
 	
 		
 	}
